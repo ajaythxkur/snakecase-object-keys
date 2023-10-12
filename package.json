@@ -1,0 +1,23 @@
+{
+  "name": "snakecase-object-keys",
+  "version": "0.0.1",
+  "description": "Zero dependency open source code to convert object keys to snake case.",
+  "main": "index.js",
+  "private": false,
+  "scripts": {
+    "test": "echo \"Bypass: no test specified\""
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ajaythxkur/snakecase-object-keys.git"
+  },
+  "keywords": [
+    "snakecase-object"
+  ],
+  "author": "ajaythxkur",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/ajaythxkur/snakecase-object-keys/issues"
+  },
+  "homepage": "https://github.com/ajaythxkur/snakecase-object-keys#readme"
+}

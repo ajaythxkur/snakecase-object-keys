@@ -1,5 +1,3 @@
-
-
 function snakecase(input) {
     let output = '';
     for (let i = 0; i < input.length; i++) {
@@ -44,4 +42,14 @@ function convert_array(inputArr){
     })
 }
 
-export const convert = convert_object;
+function main(request){
+    if(typeof request == "object"){
+        if(Array.isArray(request)){
+            return convert_array(request);
+        }
+        return convert_array(request);
+    }
+    return request;
+}
+
+export const convert = main;

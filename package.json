@@ -1,9 +1,10 @@
 {
   "name": "snakecase-object-keys",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "Zero dependency open source code to convert object keys to snake case.",
   "main": "index.js",
   "private": false,
+  "type": "module",
   "scripts": {
     "test": "echo \"Bypass: no test specified\""
   },

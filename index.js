@@ -47,7 +47,7 @@ function main(request){
         if(Array.isArray(request)){
             return convert_array(request);
         }
-        return convert_array(request);
+        return convert_object(request);
     }
     return request;
 }
